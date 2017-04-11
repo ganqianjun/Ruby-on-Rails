@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+}
+
+div {
+    float: left;
+    position: relative;
+    width: 99%;
+    height: 180px;
+    background-color: #cccccc;
+    border: 2px solid black;
+    margin: 0.5%;
+}
+
+.section_title {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 150px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+    font-size: 1.25em
+}
+
+#section_beef {
+    background-color: #99ccff;
+}
+
+#section_chicken {
+    background-color: #ffcccc;
+}
+
+#section_seafood {
+    background-color: #d9ffb3;
+}
+
+.section_text {
+    padding: 50px 20px 10px 20px ;
+}
+
+@media (min-width: 992px) {
+    div {
+        width: 32%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body .half_width {
+        width: 49%;
+    }
+    body .full_width {
+        width: 99%;
+    }
+}
